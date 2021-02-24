@@ -21,9 +21,11 @@ public class RaceCarRunner {
 		race.crash();
 		// 4. If the car is damaged. Bring it in for a pit stop.
 		if(race.isDamaged()) {
-			
+			race.pit();
 		}
 		// 5. Help the car move into first place.
-
+		while(race.getPositionInRace() > 1) {
+			race.overtake();
+		}
 	}
 }

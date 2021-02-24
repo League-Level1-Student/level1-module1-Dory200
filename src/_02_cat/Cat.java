@@ -15,6 +15,7 @@ package _02_cat;
 		* 3. Kill the Cat! 
 		
 		*/
+		
 
 
 public class Cat {
@@ -46,6 +47,8 @@ public class Cat {
 		else
 			System.out.println("DEAD CAT :(");
 	}
+	
+	
 
 
 }
